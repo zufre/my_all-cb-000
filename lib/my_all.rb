@@ -14,10 +14,11 @@ def my_all?(arr)
   # else
   #   true
   # end
-  
-  collection.each {|i| 
+
+  collection.each {|i|
     if i == false
       return false
+    end
     }
-    true
+  true
 end
