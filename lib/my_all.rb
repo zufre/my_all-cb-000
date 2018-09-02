@@ -21,8 +21,8 @@ def my_all?(arr)
   #   end
   #   }
   # true
-  
-  for (i = 0; i< collectin.length; i++)
+
+  for (i = 0; i< collection.length; i++)
     if collection[i] = false
       return false
     end
