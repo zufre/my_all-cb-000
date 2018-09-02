@@ -21,10 +21,11 @@ def my_all?(arr)
   #   end
   #   }
   # true
-i = 0
+  i = 0
   while i < collection.size do
     if collection[i] = false
       return false
+      break
     end
     i +=1
   end
