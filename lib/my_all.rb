@@ -15,10 +15,17 @@ def my_all?(arr)
   #   true
   # end
 
-  collection.each {|i|
-    if i == false
+  # collection.each {|i|
+  #   if i == false
+  #     return false
+  #   end
+  #   }
+  # true
+  
+  for (i = 0; i< collectin.length; i++)
+    if collection[i] = false
       return false
     end
-    }
+  end
   true
 end
