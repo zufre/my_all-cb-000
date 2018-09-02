@@ -21,14 +21,14 @@ def my_all?(arr)
   #   end
   #   }
   # true
-  i = 0
+  j = 0
   res = true
-  while i < collection.size do
-    if collection[i] = false
+  while j < collection.size do
+    if collection[j] = false
       res = false
-      
+
     end
-    i += 1
+    j += 1
   end
   return res
 end
