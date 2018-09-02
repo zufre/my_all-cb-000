@@ -9,9 +9,10 @@ def my_all?(arr)
     i = i + 1
   end
 
-  if collection.include?(false)
-    false
-  else
-    true
-  end
+  # if collection.include?(false)
+  #   false
+  # else
+  #   true
+  # end
+  collection.each {|i| i ==true}
 end
