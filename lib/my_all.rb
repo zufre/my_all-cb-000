@@ -24,7 +24,7 @@ def my_all?(arr)
   j = 0
   res = true
   while j < collection.size do
-    if collection[j] = false
+    if collection[j] == false
       res = false
 
     end
