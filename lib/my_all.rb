@@ -28,7 +28,7 @@ def my_all?(arr)
       res = false
       
     end
-    i +=1
+    i += 1
   end
-  res
+  return res
 end
