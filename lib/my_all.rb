@@ -22,7 +22,7 @@ def my_all?(arr)
   #   }
   # true
 
-  for (i = 0; i< collection.length; i++)
+  for (i = 0; i < collection.size; i++)
     if collection[i] = false
       return false
     end
